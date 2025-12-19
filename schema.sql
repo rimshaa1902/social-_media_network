@@ -1,6 +1,4 @@
 -- Social Network Database Schema
--- Authors: Andreia Martins fc45147
---          Rimsha Sohail fc66789
 -- =====================================
 -- schema.sql
 -- Defines tables, constraints, and indexes
@@ -204,4 +202,5 @@ CREATE INDEX idx_reactions_post_id ON reactions(post_id);
 -- for the Social Network database system.
 -- Execute with: psql -d social_network_dev -f schema/schema.sql
 -- =====================================
+
 
